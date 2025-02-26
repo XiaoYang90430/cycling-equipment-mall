@@ -1,0 +1,17 @@
+cycling-equipment-mall-server/
+├── src/
+│   ├── config/             # 配置文件
+│   │   └── db.js          # 数据库配置
+│   ├── controllers/        # 控制器
+│   │   └── cart.js        # 购物车控制器
+│   ├── models/            # 数据模型
+│   │   ├── user.js        # 用户模型
+│   │   ├── product.js     # 商品模型
+│   │   └── cart.js        # 购物车模型
+│   ├── routes/            # 路由
+│   │   └── cart.js        # 购物车路由
+│   ├── utils/             # 工具函数
+│   │   └── response.js    # 响应格式化
+│   └── app.js            # 应用入口
+├── .env                   # 环境变量
+└── package.json 
