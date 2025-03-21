@@ -115,7 +115,7 @@ JWT 认证：用户登录后会获得一个 JWT token，用于后续的请求认
 上传文件限制：对图片文件进行类型和大小限制，避免恶意文件上传。
 跨域处理：前后端分离的架构通过 CORS 跨域机制进行数据交互。
 代码贡献
-我们欢迎代码贡献！如果您有任何建议或发现了问题，请提交 Issues 或 Pull Request。
+欢迎代码贡献！如果您有任何建议或发现了问题，请提交 Issues 或 Pull Request。
 
 开源协议
 该项目使用 MIT 许可证进行开源，详情请参见 LICENSE。
@@ -124,4 +124,4 @@ JWT 认证：用户登录后会获得一个 JWT token，用于后续的请求认
 如有任何问题或建议，欢迎通过以下方式与我们联系：
 
 邮箱：2990640551@qq。com
-GitHub：https://github.com/yourusername/cycling-store
+GitHub：https://github.com/XiaoYang90430/cycling-equipment-mall/issues
