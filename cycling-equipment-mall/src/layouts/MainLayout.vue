@@ -5,8 +5,8 @@
             <div class="container">
                 <div class="topbar-nav">
                     <router-link to="/">首页</router-link>
-                    <router-link to="/shop">商城</router-link>
-                    <router-link to="/about">关于我们</router-link>
+                    <!-- <router-link to="/shop">商城</router-link>
+                    <router-link to="/about">关于我们</router-link> -->
                 </div>
                 <div class="topbar-info">
                     <template v-if="!isLogin">
