@@ -123,5 +123,5 @@ JWT 认证：用户登录后会获得一个 JWT token，用于后续的请求认
 联系方式
 如有任何问题或建议，欢迎通过以下方式与我们联系：
 
-邮箱：2990640551@qq。com
+邮箱：2990640551@qq.com
 GitHub：https://github.com/XiaoYang90430/cycling-equipment-mall/issues
