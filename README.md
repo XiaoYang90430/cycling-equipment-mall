@@ -56,8 +56,7 @@
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/yourusername/cycling-store.git
-cd cycling-store
+git clone https://github.com/XiaoYang90430/cycling-equipment-mall.git
 2. 安装前端依赖
 bash
 cd cycling-equipment-mall
