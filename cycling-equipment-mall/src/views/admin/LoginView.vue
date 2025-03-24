@@ -5,27 +5,31 @@
                 <h1 class="logo-text">骑行装备商城</h1>
                 <p class="slogan">Enjoy Life!</p>
                 <p class="sub-slogan">生活很短，骑行让它更精彩。</p>
-            </div>
-            <div class="social-links">
-                <a href="#" class="social-link"><i class="el-icon-platform-eleme"></i></a>
-                <a href="#" class="social-link"><i class="el-icon-github"></i></a>
-                <a href="#" class="social-link"><i class="el-icon-message"></i></a>
-                <a href="#" class="social-link"><i class="el-icon-link"></i></a>
+                <div style=" margin-top: 300px; line-height: 100px; width:100%;position: relative; display: inline-block;"
+                    @click="juzhi">
+                    <p style="color: white;font-size: 28px; width: 100%;">『 {{ hitokoto === '' ?
+                        '身是菩提树，心如明镜台，时时勤拂拭，勿使惹尘埃' : hitokoto
+                        }} 』
+                    </p>
+                    <p style="position: absolute; bottom: -100px; right: 0;font-size: 24px; ">— {{ hitokotoname === '' ?
+                        '伞' :
+                        hitokotoname }}</p>
+                </div>
             </div>
         </div>
         <div class="login-right">
             <div class="login-container">
                 <div class="login-box">
                     <div class="login-header">
-                        <h2>后台管理系统</h2>
+                        <h2>Login</h2>
                     </div>
                     <el-form ref="loginFormRef" :model="loginForm" :rules="loginRules" label-width="0">
                         <el-form-item prop="username">
                             <el-input v-model="loginForm.username" prefix-icon="User" placeholder="请输入管理员账号" />
                         </el-form-item>
                         <el-form-item prop="password">
-                            <el-input v-model="loginForm.password" prefix-icon="Lock" type="password" placeholder="请输入密码"
-                                show-password />
+                            <el-input v-model="loginForm.password" prefix-icon="Lock" type="password"
+                                placeholder="请输入密码" show-password />
                         </el-form-item>
                         <el-form-item>
                             <el-button type="primary" :loading="loading" class="login-button" @click="handleLogin">
@@ -40,11 +44,15 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { onUnmounted, ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { ElMessage } from 'element-plus'
 import { User, Lock } from '@element-plus/icons-vue'
 import { userAPI } from '@/api/user'
+import axios from 'axios'
+
+
+
 
 const router = useRouter()
 const loginFormRef = ref(null)
@@ -94,6 +102,19 @@ const handleLogin = async () => {
         loading.value = false
     }
 }
+const hitokoto = ref('')
+const hitokotoname = ref('')
+
+const juzhi = async () => {
+    await axios.get('https://v1.hitokoto.cn', { c: 'i', encode: 'json' }).then((res) => {
+        hitokoto.value = res.data.hitokoto;
+        hitokotoname.value = res.data.from
+    }).catch(console.error)
+}
+
+onMounted(() => {
+    juzhi();
+});
 </script>
 
 <style scoped>
@@ -259,7 +280,7 @@ const handleLogin = async () => {
     .login-left {
         display: none;
     }
-    
+
     .login-right {
         width: 100%;
     }
