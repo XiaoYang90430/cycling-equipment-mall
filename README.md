@@ -1,5 +1,11 @@
 # 骑行装备商城
-
+![Image](https://raw.githubusercontent.com/XiaoYang90430/cycling-equipment-mall/main/img/Snipaste_2025-03-25_15-31-27.jpg)
+![Image](https://raw.githubusercontent.com/XiaoYang90430/cycling-equipment-mall/main/img/Snipaste_2025-03-25_15-30-27.jpg)
+![Image](https://raw.githubusercontent.com/XiaoYang90430/cycling-equipment-mall/main/img/Snipaste_2025-03-25_15-31-45.jpg)
+![Image](https://raw.githubusercontent.com/XiaoYang90430/cycling-equipment-mall/main/img/Snipaste_2025-03-25_15-32-10.jpg)
+![Image](https://raw.githubusercontent.com/XiaoYang90430/cycling-equipment-mall/main/img/Snipaste_2025-03-25_15-32-24.jpg)
+![Image](https://raw.githubusercontent.com/XiaoYang90430/cycling-equipment-mall/main/img/Snipaste_2025-03-25_15-32-29.jpg)
+![Image](https://raw.githubusercontent.com/XiaoYang90430/cycling-equipment-mall/main/img/Snipaste_2025-03-25_15-32-36.jpg)
 这是一个基于前后端分离架构的骑行装备电商商城项目，包含了完整的电商功能流程。通过该系统，用户可以浏览和购买骑行装备，管理员可以管理商品、订单、用户和文章等内容。
 
 ## 项目特点
@@ -125,6 +131,5 @@ JWT 认证：用户登录后会获得一个 JWT token，用于后续的请求认
 
 邮箱：2990640551@qq.com
 GitHub：https://github.com/XiaoYang90430/cycling-equipment-mall/issues
-![Image](https://raw.githubusercontent.com/XiaoYang90430/cycling-equipment-mall/main/img/Snipaste_2025-03-25_15-31-27.jpg)
 
 
