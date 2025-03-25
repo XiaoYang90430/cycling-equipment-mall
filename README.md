@@ -126,9 +126,10 @@ JWT 认证：用户登录后会获得一个 JWT token，用于后续的请求认
 邮箱：2990640551@qq.com
 GitHub：https://github.com/XiaoYang90430/cycling-equipment-mall/issues
 ![image](https://github.com/XiaoYang90430/cycling-equipment-mall/blob/main/img/Snipaste_2025-03-25_15-31-27.jpg)
-![image]()
-![image]()
-![image]()
-![image]()
-![image]()
+![image](https://github.com/XiaoYang90430/cycling-equipment-mall/blob/main/img/Snipaste_2025-03-25_15-30-27.jpg)
+![image](https://github.com/XiaoYang90430/cycling-equipment-mall/blob/main/img/Snipaste_2025-03-25_15-30-45.jpg)
+![image](https://github.com/XiaoYang90430/cycling-equipment-mall/blob/main/img/Snipaste_2025-03-25_15-32-10.jpg)
+![image](https://github.com/XiaoYang90430/cycling-equipment-mall/blob/main/img/Snipaste_2025-03-25_15-32-24.jpg)
+![image](https://github.com/XiaoYang90430/cycling-equipment-mall/blob/main/img/Snipaste_2025-03-25_15-32-29.jpg)
+![image](https://github.com/XiaoYang90430/cycling-equipment-mall/blob/main/img/Snipaste_2025-03-25_15-32-36.jpg)
 
