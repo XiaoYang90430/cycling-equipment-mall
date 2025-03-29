@@ -91,11 +91,8 @@ JWT_SECRET=cycling_mall_secret_key_2024_03_18_v1
 5. 启动 MySQL 数据库
 确保您的 MySQL 数据库已启动，并且数据库已创建。
 
-数据库需自己创建，第一次启动后端服务前先初始化数据库
-
 cd cycling-equipment-mall-server
-node init-db.js（执行这个时先修改app.js文件中的force: 为true，命令执行完后请修改回false，可自行查阅原由）
-npm run dev
+npm run dev(想要更改模型时注意灵活修改app.js中的force,可自行查询用法)
 
 
 6. 启动后端服务
